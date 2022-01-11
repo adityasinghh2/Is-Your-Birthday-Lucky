@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Readex+Pro:wght@300;400&family=Roboto:wght@500&display=swap');
+
+:root {
+    --primary-dark:blue;
+    --primary-green:green;
+}
+
+
+body {
+    background-color: rgb(159, 230, 159);
+    color: red;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+input,
+label {
+    display: block;
+}
+
+input {
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+#check-number {
+    font-size: large;
+    display: block;
+    margin-top: 1rem;
+     margin: auto;
+     background: transparent;
+     color: black;
+     border-color:red;
+     border-width: medium;
+     padding: 0.8rem;
+     border-radius: 0.3rem;
+}
+
+#date-of-birth {
+    font-size: large;
+    display: block;
+    margin-top: 1rem;
+     margin: auto;
+     
+     color: black;
+     border-color:red;
+     border-width: medium;
+     padding: 0.4rem;
+     border-radius: 0.3rem;
+}
+
+#lucky-number {
+    font-size: large;
+    display: block;
+    margin-top: 1rem;
+     margin: auto;
+     
+     color: black;
+     border-color:red;
+     border-width: medium;
+     padding: 0.4rem;
+     border-radius: 0.3rem;
+}
