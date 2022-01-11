@@ -4,19 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet" type="text/css" />
-    <title>Document</title>
+    <title>Is your Birthday lucky?</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Is Your Birthday Lucky???</h1>
+    <h1>Is your birthday lucky? </h1>
     <div class="container">
-        <label for="date-of-birth">Date of Birth:</label>
+        <div class="dob">
+        <label for="date-of-birth">Date of birth  </label>
         <input type="date" id="date-of-birth">
-        <label for="lucky-number">Lucky Number</label>
-        <input id="lucky-number"  type="number">
-        <button id="check-number">Check Number</button>
-        <div id="output-box"></div>
+        </div>
+
+        <div class="lucky-num">
+        <label for="lucky-number">Lucky Number </label>
+        <input type="number" id="lucky-number" placeholder="Enter Number">
+        </div>
+        
+        <button class="btn-check-number">Check Number</button>
+        <p class="message"></p>
+        <div>
+            <p class="privacy-alert"><strong> Note : </strong>We are not storing your data! <span class="hide-privacy-msg">&times</span></p>
+        </div>
+
+        
     </div>
-    <script src="script.js"></script>
+    
+    <script src="main.js" type="text/javascript"></script>
+    
 </body>
 </html>
